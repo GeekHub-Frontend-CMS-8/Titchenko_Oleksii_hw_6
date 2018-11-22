@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*SCSS*/
+body {
+  box-sizing: border-box;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  display: inline-block;
+  width: 100%;
+  background-image: url(image6/bg_header.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+}
+.header nav {
+  color: #000000;
+  text-decoration: none;
+}
+.header nav a.hover {
+  color: #000000;
+}
+
+.know-more {
+  display: inline-flex;
+  margin: 100px;
+  text-align: left;
+  align-items: flex-start;
+  /*align не сработало*/
+}
+
+.service {
+  padding: 120px;
+  background: #f6f9f9;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+.service .service-icon {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.service .service-icon-block {
+  position: relative;
+  width: 31%;
+  margin: 1%;
+}
+
+.my-skills {
+  padding: 120px;
+  background: #ffffff;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+.my-skills img {
+  align-content: center;
+}
+
+.portfolio {
+  padding: 30px;
+  background: #f6f9f9;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+h2 {
+  color: #2d3950;
+  font-size: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.portfolio .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.portfolio .container .portfolio-image {
+  position: relative;
+  width: 31%;
+  margin: 1%;
+}
+
+.portfolio .container .portfolio-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.testimonials {
+  background-color: #fffff;
+  text-align: center;
+  margin-top: 120px;
+}
+.testimonials .limara-border {
+  display: inline-flex;
+  border: 1px solid #000000;
+  padding: 100px;
+  margin: auto;
+  margin-bottom: 120px;
+  text-align: left;
+  width: 960px;
+}
+.testimonials .limara-border-foto {
+  margin: 30px;
+}
+.testimonials img {
+  display: inline-flex;
+  position: center;
+}
+
+.icon-statistic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: normal;
+  flex-flow: row wrap;
+  margin-bottom: 65px;
+}
+
+footer {
+  display: block;
+  background-image: url(image6/bg_footer.jpg);
+  background-color: aliceblue;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+}
+footer h2 {
+  color: #ffffff;
+}
+footer img {
+  max-width: 1000px;
+}
+
+a:hover {
+  background: #0084b4;
+  color: #0084b4;
+}
+
+.footer_figure {
+  display: inline-block;
+}
+
+.footer-form {
+  display: block;
+}
+
+#name, #email {
+  width: 370px;
+  height: 55px;
+  margin: 10px;
+}
+
+.message {
+  width: 765px;
+  height: 205px;
+  margin-top: 10px;
+}
+
+.social-button {
+  position: relative;
+  right: 400px;
+}
+
+/*# sourceMappingURL=style_hw6.css.map */
