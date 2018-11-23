@@ -1,23 +1,10 @@
 /*SCSS*/
+@import "_header";
 body {
   box-sizing: border-box;
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
-}
-.header {
-  display: inline-block;
-  width: 100%;
-  background-image: url(image6/bg_header.jpg);
-  background-size: 100% 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  justify-content:space-between;
-    nav {
-      color: #000000;
-      a.hover {color: #000000}
-      text-decoration: none;
-    }
 }
 
 .know-more {
